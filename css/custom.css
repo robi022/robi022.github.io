@@ -1,3 +1,7 @@
+body {
+	color: #CFE0E3;
+}
+
 .site-wrapper {
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
@@ -5,4 +9,11 @@
 
 .clean-list {
 	list-style-type: none;
+	font-size: 18px;
+	padding-left: 0px;
+	-webkit-padding-start: 0px;
+}
+
+.clean-list li{
+	margin-top: 10px
 }
