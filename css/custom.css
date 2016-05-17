@@ -1,0 +1,8 @@
+.site-wrapper {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+}
+
+.clean-list {
+	list-style-type: none;
+}
