@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Waarom - Van der Werff Hospitality</title>
+    <title>Contact - Van der Werff Hospitality</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -50,19 +50,47 @@
 
     <div class="content">
 	  <div class="jumbotron">
-        <h1>Waarom</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+        <h1>Contact</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
 
-      <div class="row subcontent">
-        <div class="col-lg-6">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-
-        <div class="col-lg-6">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-      </div>
+			<div class="row">
+			  <form role="form" action="" method="post" >
+				<div class="col-lg-6">
+				  <div class="well well-sm"><strong>Verplicht veld</strong><i class="glyphicon glyphicon-ok form-control-feedback required-icon"></i></div>
+				  <div class="form-group">
+					<label for="InputName">Bedrijfsnaam</label>
+					<div class="input-group">
+					  <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Geef een naam op" required>
+					  <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+				  </div>
+				  <div class="form-group">
+					<label for="InputEmail">E-mailadres</label>
+					<div class="input-group">
+					  <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Geef een e-mailadres op" required  >
+					  <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+				  </div>
+				  <div class="form-group">
+					<label for="InputMessage">Bericht</label>
+					<div class="input-group"
+			>
+					  <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+					  <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+				  </div>
+				  <input type="submit" name="submit" id="submit" value="Verstuur" class="btn btn-info pull-right">
+				</div>
+			  </form>
+			  <hr class="featurette-divider hidden-lg">
+			  <div class="col-lg-5 col-md-push-1">
+				<address>
+				<h3>Adresgegevens:</h3>
+				<p class="lead">Van Der Werff Hospitality<br>
+				Straatnaam 1<br>
+				1234AB Amsterdam<br>
+				Telefoon: 0123456789</p>
+				</address>
+			  </div>
+			</div>
     </div>
 	
 	<footer class="footer">
